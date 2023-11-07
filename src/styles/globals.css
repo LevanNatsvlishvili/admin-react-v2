@@ -1,0 +1,8 @@
+@import './base/reset.css';
+/* @import './base/fonts.css'; */
+@import './base/base.css';
+@import './commons.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

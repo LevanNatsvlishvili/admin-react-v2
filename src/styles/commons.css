@@ -1,0 +1,13 @@
+@tailwind base;
+
+@layer base {
+  .react-dataTable .rdt_TableHead .rdt_TableHeadRow .rdt_TableCol_Sortable {
+    @apply text-green-dark font-600;
+  }
+  .react-dataTable .rdt_TableBody .rdt_TableRow .rdt_TableCell {
+    @apply text-green;
+  }
+  .react-dataTable .rdt_Pagination {
+    @apply text-green;
+  }
+}

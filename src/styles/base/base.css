@@ -1,0 +1,48 @@
+body {
+  background: #f7f3f5 !important;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  /* font-family: Firago !important; */
+  outline: none !important;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #d1d5d6 #2a303a;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  box-shadow: 2px 2px 13px -1px #7367f0;
+  background-color: #7367f0;
+  margin-right: 100px;
+}
+
+.navlink {
+  border-radius: 8px !important;
+}
+.navlink:hover {
+  background: linear-gradient(118deg, #7367f0, rgba(115, 103, 240, 0.7));
+  color: white;
+}
+.navlink:hover div {
+  color: white;
+}
+.navlink-active {
+  background: linear-gradient(118deg, #7367f0, rgba(115, 103, 240, 0.7));
+  color: white;
+  border-radius: 8px;
+}
+
+td {
+  font-family: 'Firago';
+}
